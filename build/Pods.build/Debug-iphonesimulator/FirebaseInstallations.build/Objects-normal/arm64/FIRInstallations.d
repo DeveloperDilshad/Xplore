@@ -1,0 +1,25 @@
+dependencies: \
+  /Users/dilshadp/Xplore/build/Pods.build/Debug-iphonesimulator/FirebaseInstallations.build/module.modulemap \
+  /Users/dilshadp/Xplore/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/FIRInstallations.m \
+  /Users/dilshadp/Xplore/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/Public/FirebaseInstallations/FIRInstallations.h \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/Foundation.framework/Modules/module.modulemap \
+  /Users/dilshadp/Xplore/build/Pods.build/Debug-iphonesimulator/PromisesObjC.build/module.modulemap \
+  /Users/dilshadp/Xplore/Pods/PromisesObjC/Sources/FBLPromises/include/FBLPromises.h \
+  /Users/dilshadp/Xplore/Pods/FirebaseInstallations/FirebaseCore/Extension/FirebaseCoreInternal.h \
+  /Users/dilshadp/Xplore/build/Pods.build/Debug-iphonesimulator/FirebaseCore.build/module.modulemap \
+  /Users/dilshadp/Xplore/Pods/FirebaseInstallations/FirebaseCore/Extension/FIRAppInternal.h \
+  /Users/dilshadp/Xplore/Pods/FirebaseInstallations/FirebaseCore/Extension/FIRComponent.h \
+  /Users/dilshadp/Xplore/Pods/FirebaseInstallations/FirebaseCore/Extension/FIRComponentContainer.h \
+  /Users/dilshadp/Xplore/Pods/FirebaseInstallations/FirebaseCore/Extension/FIRComponentType.h \
+  /Users/dilshadp/Xplore/Pods/FirebaseInstallations/FirebaseCore/Extension/FIRHeartbeatLogger.h \
+  /Users/dilshadp/Xplore/Pods/FirebaseInstallations/FirebaseCore/Extension/FIRLibrary.h \
+  /Users/dilshadp/Xplore/Pods/FirebaseInstallations/FirebaseCore/Extension/FIRLogger.h \
+  /Users/dilshadp/Xplore/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/FIRInstallationsAuthTokenResultInternal.h \
+  /Users/dilshadp/Xplore/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/Public/FirebaseInstallations/FIRInstallationsAuthTokenResult.h \
+  /Users/dilshadp/Xplore/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/Errors/FIRInstallationsErrorUtil.h \
+  /Users/dilshadp/Xplore/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/Public/FirebaseInstallations/FIRInstallationsErrors.h \
+  /Users/dilshadp/Xplore/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/FIRInstallationsItem.h \
+  /Users/dilshadp/Xplore/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/InstallationsIDController/FIRInstallationsStatus.h \
+  /Users/dilshadp/Xplore/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/FIRInstallationsLogger.h \
+  /Users/dilshadp/Xplore/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/InstallationsIDController/FIRInstallationsIDController.h \
+  /Users/dilshadp/Xplore/Pods/FirebaseInstallations/FirebaseInstallations/Source/Library/InstallationsStore/FIRInstallationsStoredAuthToken.h

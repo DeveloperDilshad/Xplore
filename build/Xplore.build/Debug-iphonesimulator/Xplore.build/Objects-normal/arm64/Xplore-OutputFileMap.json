@@ -1,0 +1,48 @@
+{
+  "" : {
+    "diagnostics" : "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/Xplore-master.dia",
+    "emit-module-dependencies" : "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/Xplore-master-emit-module.d",
+    "emit-module-diagnostics" : "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/Xplore-master-emit-module.dia",
+    "swift-dependencies" : "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/Xplore-master.swiftdeps"
+  },
+  "/Users/dilshadp/Xplore/Xplore/AppDelegate.swift" : {
+    "const-values" : "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/AppDelegate.swiftconstvalues",
+    "dependencies" : "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/AppDelegate.d",
+    "diagnostics" : "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/AppDelegate.dia",
+    "index-unit-output-path" : "/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/AppDelegate.o",
+    "llvm-bc" : "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/AppDelegate.bc",
+    "object" : "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/AppDelegate.o",
+    "swift-dependencies" : "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/AppDelegate.swiftdeps",
+    "swiftmodule" : "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/AppDelegate~partial.swiftmodule"
+  },
+  "/Users/dilshadp/Xplore/Xplore/SceneDelegate.swift" : {
+    "const-values" : "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/SceneDelegate.swiftconstvalues",
+    "dependencies" : "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/SceneDelegate.d",
+    "diagnostics" : "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/SceneDelegate.dia",
+    "index-unit-output-path" : "/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/SceneDelegate.o",
+    "llvm-bc" : "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/SceneDelegate.bc",
+    "object" : "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/SceneDelegate.o",
+    "swift-dependencies" : "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/SceneDelegate.swiftdeps",
+    "swiftmodule" : "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/SceneDelegate~partial.swiftmodule"
+  },
+  "/Users/dilshadp/Xplore/Xplore/ViewController.swift" : {
+    "const-values" : "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/ViewController.swiftconstvalues",
+    "dependencies" : "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/ViewController.d",
+    "diagnostics" : "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/ViewController.dia",
+    "index-unit-output-path" : "/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/ViewController.o",
+    "llvm-bc" : "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/ViewController.bc",
+    "object" : "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/ViewController.o",
+    "swift-dependencies" : "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/ViewController.swiftdeps",
+    "swiftmodule" : "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/ViewController~partial.swiftmodule"
+  },
+  "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/DerivedSources/GeneratedAssetSymbols.swift" : {
+    "const-values" : "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftconstvalues",
+    "dependencies" : "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/GeneratedAssetSymbols.d",
+    "diagnostics" : "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/GeneratedAssetSymbols.dia",
+    "index-unit-output-path" : "/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "llvm-bc" : "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/GeneratedAssetSymbols.bc",
+    "object" : "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/GeneratedAssetSymbols.o",
+    "swift-dependencies" : "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/GeneratedAssetSymbols.swiftdeps",
+    "swiftmodule" : "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/GeneratedAssetSymbols~partial.swiftmodule"
+  }
+}

@@ -1,0 +1,46 @@
+dependencies: \
+  /Users/dilshadp/Xplore/Pods/gRPC-Core/src/core/telemetry/stats.cc \
+  /Users/dilshadp/Xplore/Pods/Target\ Support\ Files/gRPC-Core/gRPC-Core-prefix.pch \
+  /Users/dilshadp/Xplore/Pods/gRPC-Core/src/core/telemetry/stats.h \
+  /Users/dilshadp/Xplore/Pods/gRPC-Core/include/grpc/support/port_platform.h \
+  /Users/dilshadp/Xplore/build/Debug-iphonesimulator/abseil/absl.framework/Headers/strings/string_view.h \
+  /Users/dilshadp/Xplore/build/Debug-iphonesimulator/abseil/absl.framework/Headers/base/attributes.h \
+  /Users/dilshadp/Xplore/build/Debug-iphonesimulator/abseil/absl.framework/Headers/base/config.h \
+  /Users/dilshadp/Xplore/build/Debug-iphonesimulator/abseil/absl.framework/Headers/base/options.h \
+  /Users/dilshadp/Xplore/build/Debug-iphonesimulator/abseil/absl.framework/Headers/base/policy_checks.h \
+  /Users/dilshadp/Xplore/build/Debug-iphonesimulator/abseil/absl.framework/Headers/base/nullability.h \
+  /Users/dilshadp/Xplore/build/Debug-iphonesimulator/abseil/absl.framework/Headers/base/internal/nullability_impl.h \
+  /Users/dilshadp/Xplore/build/Debug-iphonesimulator/abseil/absl.framework/Headers/meta/type_traits.h \
+  /Users/dilshadp/Xplore/build/Debug-iphonesimulator/abseil/absl.framework/Headers/base/internal/throw_delegate.h \
+  /Users/dilshadp/Xplore/build/Debug-iphonesimulator/abseil/absl.framework/Headers/base/macros.h \
+  /Users/dilshadp/Xplore/build/Debug-iphonesimulator/abseil/absl.framework/Headers/base/optimization.h \
+  /Users/dilshadp/Xplore/build/Debug-iphonesimulator/abseil/absl.framework/Headers/base/port.h \
+  /Users/dilshadp/Xplore/build/Debug-iphonesimulator/abseil/absl.framework/Headers/types/span.h \
+  /Users/dilshadp/Xplore/build/Debug-iphonesimulator/abseil/absl.framework/Headers/types/internal/span.h \
+  /Users/dilshadp/Xplore/build/Debug-iphonesimulator/abseil/absl.framework/Headers/algorithm/algorithm.h \
+  /Users/dilshadp/Xplore/Pods/gRPC-Core/src/core/telemetry/histogram_view.h \
+  /Users/dilshadp/Xplore/Pods/gRPC-Core/src/core/telemetry/stats_data.h \
+  /Users/dilshadp/Xplore/Pods/gRPC-Core/src/core/util/per_cpu.h \
+  /Users/dilshadp/Xplore/Pods/gRPC-Core/include/grpc/support/cpu.h \
+  /Users/dilshadp/Xplore/Pods/gRPC-Core/src/core/util/no_destruct.h \
+  /Users/dilshadp/Xplore/Pods/gRPC-Core/src/core/util/construct_destruct.h \
+  /Users/dilshadp/Xplore/build/Debug-iphonesimulator/abseil/absl.framework/Headers/strings/str_cat.h \
+  /Users/dilshadp/Xplore/build/Debug-iphonesimulator/abseil/absl.framework/Headers/strings/has_absl_stringify.h \
+  /Users/dilshadp/Xplore/build/Debug-iphonesimulator/abseil/absl.framework/Headers/strings/internal/resize_uninitialized.h \
+  /Users/dilshadp/Xplore/build/Debug-iphonesimulator/abseil/absl.framework/Headers/strings/internal/stringify_sink.h \
+  /Users/dilshadp/Xplore/build/Debug-iphonesimulator/abseil/absl.framework/Headers/strings/numbers.h \
+  /Users/dilshadp/Xplore/build/Debug-iphonesimulator/abseil/absl.framework/Headers/base/internal/endian.h \
+  /Users/dilshadp/Xplore/build/Debug-iphonesimulator/abseil/absl.framework/Headers/base/casts.h \
+  /Users/dilshadp/Xplore/build/Debug-iphonesimulator/abseil/absl.framework/Headers/base/internal/identity.h \
+  /Users/dilshadp/Xplore/build/Debug-iphonesimulator/abseil/absl.framework/Headers/base/internal/unaligned_access.h \
+  /Users/dilshadp/Xplore/build/Debug-iphonesimulator/abseil/absl.framework/Headers/numeric/bits.h \
+  /Users/dilshadp/Xplore/build/Debug-iphonesimulator/abseil/absl.framework/Headers/numeric/internal/bits.h \
+  /Users/dilshadp/Xplore/build/Debug-iphonesimulator/abseil/absl.framework/Headers/numeric/int128.h \
+  /Users/dilshadp/Xplore/build/Debug-iphonesimulator/abseil/absl.framework/Headers/types/compare.h \
+  /Users/dilshadp/Xplore/build/Debug-iphonesimulator/abseil/absl.framework/Headers/numeric/int128_have_intrinsic.inc \
+  /Users/dilshadp/Xplore/build/Debug-iphonesimulator/abseil/absl.framework/Headers/strings/str_join.h \
+  /Users/dilshadp/Xplore/build/Debug-iphonesimulator/abseil/absl.framework/Headers/strings/internal/str_join_internal.h \
+  /Users/dilshadp/Xplore/build/Debug-iphonesimulator/abseil/absl.framework/Headers/base/internal/raw_logging.h \
+  /Users/dilshadp/Xplore/build/Debug-iphonesimulator/abseil/absl.framework/Headers/base/internal/atomic_hook.h \
+  /Users/dilshadp/Xplore/build/Debug-iphonesimulator/abseil/absl.framework/Headers/base/log_severity.h \
+  /Users/dilshadp/Xplore/build/Debug-iphonesimulator/abseil/absl.framework/Headers/strings/internal/ostringstream.h

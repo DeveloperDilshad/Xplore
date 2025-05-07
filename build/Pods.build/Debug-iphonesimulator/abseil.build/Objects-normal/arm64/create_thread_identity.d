@@ -1,0 +1,46 @@
+dependencies: \
+  /Users/dilshadp/Xplore/Pods/abseil/absl/synchronization/internal/create_thread_identity.cc \
+  /Users/dilshadp/Xplore/Pods/Target\ Support\ Files/abseil/abseil-prefix.pch \
+  /Users/dilshadp/Xplore/Pods/abseil/absl/base/internal/low_level_alloc.h \
+  /Users/dilshadp/Xplore/Pods/abseil/absl/base/attributes.h \
+  /Users/dilshadp/Xplore/Pods/abseil/absl/base/config.h \
+  /Users/dilshadp/Xplore/Pods/abseil/absl/base/options.h \
+  /Users/dilshadp/Xplore/Pods/abseil/absl/base/policy_checks.h \
+  /Users/dilshadp/Xplore/Pods/abseil/absl/base/port.h \
+  /Users/dilshadp/Xplore/Pods/abseil/absl/base/optimization.h \
+  /Users/dilshadp/Xplore/Pods/abseil/absl/synchronization/internal/waiter.h \
+  /Users/dilshadp/Xplore/Pods/abseil/absl/synchronization/internal/futex_waiter.h \
+  /Users/dilshadp/Xplore/Pods/abseil/absl/synchronization/internal/kernel_timeout.h \
+  /Users/dilshadp/Xplore/Pods/abseil/absl/base/internal/raw_logging.h \
+  /Users/dilshadp/Xplore/Pods/abseil/absl/base/internal/atomic_hook.h \
+  /Users/dilshadp/Xplore/Pods/abseil/absl/base/log_severity.h \
+  /Users/dilshadp/Xplore/Pods/abseil/absl/base/macros.h \
+  /Users/dilshadp/Xplore/Pods/abseil/absl/time/clock.h \
+  /Users/dilshadp/Xplore/Pods/abseil/absl/time/time.h \
+  /Users/dilshadp/Xplore/Pods/abseil/absl/strings/string_view.h \
+  /Users/dilshadp/Xplore/Pods/abseil/absl/base/nullability.h \
+  /Users/dilshadp/Xplore/Pods/abseil/absl/base/internal/nullability_impl.h \
+  /Users/dilshadp/Xplore/Pods/abseil/absl/meta/type_traits.h \
+  /Users/dilshadp/Xplore/Pods/abseil/absl/base/internal/throw_delegate.h \
+  /Users/dilshadp/Xplore/Pods/abseil/absl/time/civil_time.h \
+  /Users/dilshadp/Xplore/Pods/abseil/absl/time/internal/cctz/include/cctz/civil_time.h \
+  /Users/dilshadp/Xplore/Pods/abseil/absl/time/internal/cctz/include/cctz/civil_time_detail.h \
+  /Users/dilshadp/Xplore/Pods/abseil/absl/time/internal/cctz/include/cctz/time_zone.h \
+  /Users/dilshadp/Xplore/Pods/abseil/absl/synchronization/internal/futex.h \
+  /Users/dilshadp/Xplore/Pods/abseil/absl/synchronization/internal/waiter_base.h \
+  /Users/dilshadp/Xplore/Pods/abseil/absl/base/internal/thread_identity.h \
+  /Users/dilshadp/Xplore/Pods/abseil/absl/base/internal/per_thread_tls.h \
+  /Users/dilshadp/Xplore/Pods/abseil/absl/synchronization/internal/pthread_waiter.h \
+  /Users/dilshadp/Xplore/Pods/abseil/absl/synchronization/internal/sem_waiter.h \
+  /Users/dilshadp/Xplore/Pods/abseil/absl/synchronization/internal/stdcpp_waiter.h \
+  /Users/dilshadp/Xplore/Pods/abseil/absl/synchronization/internal/win32_waiter.h \
+  /Users/dilshadp/Xplore/Pods/abseil/absl/base/internal/spinlock.h \
+  /Users/dilshadp/Xplore/Pods/abseil/absl/base/const_init.h \
+  /Users/dilshadp/Xplore/Pods/abseil/absl/base/dynamic_annotations.h \
+  /Users/dilshadp/Xplore/Pods/abseil/absl/base/internal/dynamic_annotations.h \
+  /Users/dilshadp/Xplore/Pods/abseil/absl/base/internal/low_level_scheduling.h \
+  /Users/dilshadp/Xplore/Pods/abseil/absl/base/internal/scheduling_mode.h \
+  /Users/dilshadp/Xplore/Pods/abseil/absl/base/internal/tsan_mutex_interface.h \
+  /Users/dilshadp/Xplore/Pods/abseil/absl/base/thread_annotations.h \
+  /Users/dilshadp/Xplore/Pods/abseil/absl/synchronization/internal/per_thread_sem.h \
+  /Users/dilshadp/Xplore/Pods/abseil/absl/synchronization/internal/create_thread_identity.h

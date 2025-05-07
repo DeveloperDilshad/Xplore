@@ -1,0 +1,24 @@
+dependencies: \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/include/Darwin.modulemap \
+  /Users/dilshadp/Xplore/build/Pods.build/Debug-iphonesimulator/FirebaseCore.build/module.modulemap \
+  /Users/dilshadp/Xplore/Pods/FirebaseCore/FirebaseCore/Sources/FIRApp.m \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/UIKit.framework/Modules/module.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/System/Library/Frameworks/Foundation.framework/Modules/module.modulemap \
+  /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk/usr/include/ObjectiveC.modulemap \
+  /Users/dilshadp/Xplore/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRApp.h \
+  /Users/dilshadp/Xplore/Pods/FirebaseCore/FirebaseCore/Sources/FIRAnalyticsConfiguration.h \
+  /Users/dilshadp/Xplore/Pods/FirebaseCore/FirebaseCore/Sources/FIRBundleUtil.h \
+  /Users/dilshadp/Xplore/Pods/FirebaseCore/FirebaseCore/Sources/FIRComponentContainerInternal.h \
+  /Users/dilshadp/Xplore/Pods/FirebaseCore/FirebaseCore/Extension/FIRComponentContainer.h \
+  /Users/dilshadp/Xplore/Pods/FirebaseCore/FirebaseCore/Extension/FIRLibrary.h \
+  /Users/dilshadp/Xplore/Pods/FirebaseCore/FirebaseCore/Sources/FIRConfigurationInternal.h \
+  /Users/dilshadp/Xplore/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRConfiguration.h \
+  /Users/dilshadp/Xplore/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRLoggerLevel.h \
+  /Users/dilshadp/Xplore/Pods/FirebaseCore/FirebaseCore/Sources/FIRFirebaseUserAgent.h \
+  /Users/dilshadp/Xplore/Pods/FirebaseCore/FirebaseCore/Extension/FIRAppInternal.h \
+  /Users/dilshadp/Xplore/Pods/FirebaseCore/FirebaseCore/Extension/FIRHeartbeatLogger.h \
+  /Users/dilshadp/Xplore/Pods/FirebaseCore/FirebaseCore/Extension/FIRLogger.h \
+  /Users/dilshadp/Xplore/Pods/FirebaseCore/FirebaseCore/Sources/FIROptionsInternal.h \
+  /Users/dilshadp/Xplore/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIROptions.h \
+  /Users/dilshadp/Xplore/Pods/FirebaseCore/FirebaseCore/Sources/Public/FirebaseCore/FIRVersion.h \
+  /Users/dilshadp/Xplore/build/Pods.build/Debug-iphonesimulator/GoogleUtilities.build/module.modulemap
