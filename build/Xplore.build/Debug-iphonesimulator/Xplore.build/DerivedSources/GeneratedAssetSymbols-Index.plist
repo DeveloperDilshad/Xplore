@@ -5,7 +5,18 @@
 	<key>colors</key>
 	<array/>
 	<key>images</key>
-	<array/>
+	<array>
+		<dict>
+			<key>catalogPath</key>
+			<string>/Users/dilshadp/Xplore/Xplore/Assets.xcassets</string>
+			<key>objcSymbol</key>
+			<string>ACImageNameXplore</string>
+			<key>relativePath</key>
+			<string>./xplore.imageset</string>
+			<key>swiftSymbol</key>
+			<string>xplore</string>
+		</dict>
+	</array>
 	<key>symbols</key>
 	<array/>
 </dict>

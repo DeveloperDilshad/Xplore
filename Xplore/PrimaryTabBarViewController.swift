@@ -24,7 +24,7 @@ class PrimaryTabBarViewController: UITabBarController {
         vc1.tabBarItem.image = UIImage(systemName: "shuffle")
         vc2.tabBarItem.image = UIImage(systemName: "heart")
        
-       vc1.title = "Xplore"
+       vc1.tabBarItem.title = "Xplore"
        vc2.title = "Favourites"
        
        let nav1 = UINavigationController(rootViewController: vc1)
