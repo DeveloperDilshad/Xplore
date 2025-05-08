@@ -280,7 +280,9 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import CoreFoundation;
+@import CoreLocation;
 @import Foundation;
+@import ObjectiveC;
 @import UIKit;
 #endif
 
@@ -340,6 +342,19 @@ SWIFT_CLASS("_TtC6Xplore18HomeViewController")
 - (void)didTapImage;
 - (void)didTapDistanceLabel;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil SWIFT_UNAVAILABLE;
+@end
+
+SWIFT_CLASS("_TtC6Xplore15LocationService")
+@interface LocationService : NSObject
+- (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class CLLocationManager;
+@class CLLocation;
+@interface LocationService (SWIFT_EXTENSION(Xplore)) <CLLocationManagerDelegate>
+- (void)locationManagerDidChangeAuthorization:(CLLocationManager * _Nonnull)manager;
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didUpdateLocations:(NSArray<CLLocation *> * _Nonnull)locations;
+- (void)locationManager:(CLLocationManager * _Nonnull)manager didFailWithError:(NSError * _Nonnull)error;
 @end
 
 @class UITab;

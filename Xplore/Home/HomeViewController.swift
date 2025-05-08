@@ -7,6 +7,8 @@
 
 import UIKit
 import SDWebImage
+import Combine
+
 
 class HomeViewController: UIViewController {
     
@@ -59,6 +61,8 @@ class HomeViewController: UIViewController {
     var databaseService: DatabaseServicesProtocol?
     var places: [Place] = []
     var currentPlace : Place?
+    let locationService = LocationService()
+    var toekns: Set<AnyCancellable> = []
     
     init(databaseService: DatabaseServicesProtocol) {
         self.databaseService = databaseService
@@ -74,6 +78,7 @@ class HomeViewController: UIViewController {
         view.backgroundColor = .systemBackground
         configureUI()
         fetchplaces()
+        getCurrentLocation()
     }
 
 
@@ -162,6 +167,15 @@ class HomeViewController: UIViewController {
         
         // category
         categoryView.setCategory(category: currentPlace.category)
+    }
+    
+    private func getCurrentLocation() {
+        locationService.requestLocationAccess()
+        locationService.locationPublisher.receive(on: DispatchQueue.main).sink {  _ in
+            
+        }receiveValue: { location in
+            print(location)
+        }.store(in: &toekns)
     }
 }
 
