@@ -1,0 +1,18 @@
+"/Users/dilshadp/Xplore/Pods/FirebaseStorage/FirebaseStorage/Sources/StorageError.swift":
+  diagnostics: "/Users/dilshadp/Xplore/build/Pods.build/Debug-iphonesimulator/FirebaseStorage.build/Objects-normal/arm64/StorageError.dia"
+  swift-dependencies: "/Users/dilshadp/Xplore/build/Pods.build/Debug-iphonesimulator/FirebaseStorage.build/Objects-normal/arm64/StorageError.swiftdeps"
+  const-values: "/Users/dilshadp/Xplore/build/Pods.build/Debug-iphonesimulator/FirebaseStorage.build/Objects-normal/arm64/StorageError.swiftconstvalues"
+  dependencies: "/Users/dilshadp/Xplore/build/Pods.build/Debug-iphonesimulator/FirebaseStorage.build/Objects-normal/arm64/StorageError.d"
+  object: "/Users/dilshadp/Xplore/build/Pods.build/Debug-iphonesimulator/FirebaseStorage.build/Objects-normal/arm64/StorageError.o"
+"/Users/dilshadp/Xplore/Pods/FirebaseStorage/FirebaseStorage/Sources/Internal/StorageFetcherService.swift":
+  const-values: "/Users/dilshadp/Xplore/build/Pods.build/Debug-iphonesimulator/FirebaseStorage.build/Objects-normal/arm64/StorageFetcherService.swiftconstvalues"
+  object: "/Users/dilshadp/Xplore/build/Pods.build/Debug-iphonesimulator/FirebaseStorage.build/Objects-normal/arm64/StorageFetcherService.o"
+  swift-dependencies: "/Users/dilshadp/Xplore/build/Pods.build/Debug-iphonesimulator/FirebaseStorage.build/Objects-normal/arm64/StorageFetcherService.swiftdeps"
+  dependencies: "/Users/dilshadp/Xplore/build/Pods.build/Debug-iphonesimulator/FirebaseStorage.build/Objects-normal/arm64/StorageFetcherService.d"
+  diagnostics: "/Users/dilshadp/Xplore/build/Pods.build/Debug-iphonesimulator/FirebaseStorage.build/Objects-normal/arm64/StorageFetcherService.dia"
+"/Users/dilshadp/Xplore/Pods/FirebaseStorage/FirebaseStorage/Sources/Internal/StorageGetDownloadURLTask.swift":
+  object: "/Users/dilshadp/Xplore/build/Pods.build/Debug-iphonesimulator/FirebaseStorage.build/Objects-normal/arm64/StorageGetDownloadURLTask.o"
+  diagnostics: "/Users/dilshadp/Xplore/build/Pods.build/Debug-iphonesimulator/FirebaseStorage.build/Objects-normal/arm64/StorageGetDownloadURLTask.dia"
+  const-values: "/Users/dilshadp/Xplore/build/Pods.build/Debug-iphonesimulator/FirebaseStorage.build/Objects-normal/arm64/StorageGetDownloadURLTask.swiftconstvalues"
+  dependencies: "/Users/dilshadp/Xplore/build/Pods.build/Debug-iphonesimulator/FirebaseStorage.build/Objects-normal/arm64/StorageGetDownloadURLTask.d"
+  swift-dependencies: "/Users/dilshadp/Xplore/build/Pods.build/Debug-iphonesimulator/FirebaseStorage.build/Objects-normal/arm64/StorageGetDownloadURLTask.swiftdeps"

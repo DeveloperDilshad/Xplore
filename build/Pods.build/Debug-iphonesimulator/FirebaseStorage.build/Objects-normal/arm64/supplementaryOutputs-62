@@ -1,0 +1,18 @@
+"/Users/dilshadp/Xplore/Pods/FirebaseStorage/FirebaseStorage/Sources/Internal/StoragePath.swift":
+  swift-dependencies: "/Users/dilshadp/Xplore/build/Pods.build/Debug-iphonesimulator/FirebaseStorage.build/Objects-normal/arm64/StoragePath.swiftdeps"
+  dependencies: "/Users/dilshadp/Xplore/build/Pods.build/Debug-iphonesimulator/FirebaseStorage.build/Objects-normal/arm64/StoragePath.d"
+  const-values: "/Users/dilshadp/Xplore/build/Pods.build/Debug-iphonesimulator/FirebaseStorage.build/Objects-normal/arm64/StoragePath.swiftconstvalues"
+  object: "/Users/dilshadp/Xplore/build/Pods.build/Debug-iphonesimulator/FirebaseStorage.build/Objects-normal/arm64/StoragePath.o"
+  diagnostics: "/Users/dilshadp/Xplore/build/Pods.build/Debug-iphonesimulator/FirebaseStorage.build/Objects-normal/arm64/StoragePath.dia"
+"/Users/dilshadp/Xplore/Pods/FirebaseStorage/FirebaseStorage/Sources/StorageReference.swift":
+  dependencies: "/Users/dilshadp/Xplore/build/Pods.build/Debug-iphonesimulator/FirebaseStorage.build/Objects-normal/arm64/StorageReference.d"
+  swift-dependencies: "/Users/dilshadp/Xplore/build/Pods.build/Debug-iphonesimulator/FirebaseStorage.build/Objects-normal/arm64/StorageReference.swiftdeps"
+  const-values: "/Users/dilshadp/Xplore/build/Pods.build/Debug-iphonesimulator/FirebaseStorage.build/Objects-normal/arm64/StorageReference.swiftconstvalues"
+  diagnostics: "/Users/dilshadp/Xplore/build/Pods.build/Debug-iphonesimulator/FirebaseStorage.build/Objects-normal/arm64/StorageReference.dia"
+  object: "/Users/dilshadp/Xplore/build/Pods.build/Debug-iphonesimulator/FirebaseStorage.build/Objects-normal/arm64/StorageReference.o"
+"/Users/dilshadp/Xplore/Pods/FirebaseStorage/FirebaseStorage/Sources/StorageTask.swift":
+  object: "/Users/dilshadp/Xplore/build/Pods.build/Debug-iphonesimulator/FirebaseStorage.build/Objects-normal/arm64/StorageTask.o"
+  diagnostics: "/Users/dilshadp/Xplore/build/Pods.build/Debug-iphonesimulator/FirebaseStorage.build/Objects-normal/arm64/StorageTask.dia"
+  dependencies: "/Users/dilshadp/Xplore/build/Pods.build/Debug-iphonesimulator/FirebaseStorage.build/Objects-normal/arm64/StorageTask.d"
+  const-values: "/Users/dilshadp/Xplore/build/Pods.build/Debug-iphonesimulator/FirebaseStorage.build/Objects-normal/arm64/StorageTask.swiftconstvalues"
+  swift-dependencies: "/Users/dilshadp/Xplore/build/Pods.build/Debug-iphonesimulator/FirebaseStorage.build/Objects-normal/arm64/StorageTask.swiftdeps"

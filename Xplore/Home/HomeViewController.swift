@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import SDWebImage
 
 class HomeViewController: UIViewController {
     
@@ -13,7 +14,7 @@ class HomeViewController: UIViewController {
         let image = UIImageView()
         image.translatesAutoresizingMaskIntoConstraints = false
         image.contentMode = .scaleAspectFit
-        image.layer.cornerRadius = 10
+        image.layer.cornerRadius = 20
         image.clipsToBounds = true
         image.image = UIImage(named: "xplore")
         image.isUserInteractionEnabled = true
@@ -55,7 +56,19 @@ class HomeViewController: UIViewController {
     }()
     
     let categoryView = CategoryView()
-
+    var databaseService: DatabaseServicesProtocol?
+    var places: [Place] = []
+    var currentPlace : Place?
+    
+    init(databaseService: DatabaseServicesProtocol) {
+        self.databaseService = databaseService
+        super.init(nibName: nil, bundle: nil)
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         view.backgroundColor = .systemBackground
@@ -106,7 +119,12 @@ class HomeViewController: UIViewController {
     
     
     @objc func didTapShuffle() {
-        print("Shuffle tapped")
+        
+        if !places.isEmpty {
+            self.currentPlace = places.randomElement()!
+            guard let currentPlace = currentPlace else {return}
+            updateCurrentPlaceFor(currentPlace: currentPlace)
+        }
     }
     
     @objc func didTapImage() {
@@ -118,19 +136,35 @@ class HomeViewController: UIViewController {
     }
     
     private func fetchplaces() {
-        let db = DatabaseServices()
         
-        db.fetchPlaces { results in
+        databaseService?.fetchPlaces {[weak self] results in
+            
+            guard let strongSelf = self else { return }
+            
             switch results {
-            case .success(let success):
-                print("success")
+            case .success(let places):
+                strongSelf.places = places
             case .failure(let failure):
-                print("fail")
+                print("Failed")
+                print(failure.localizedDescription)
             }
         }
+    }
+    
+    private func updateCurrentPlaceFor(currentPlace:Place){
+        
+        placeNameLabel.text = currentPlace.name
+        
+        // image
+        let urlString = currentPlace.inageURL
+        let url = URL(string: urlString)
+        placeImageView.sd_setImage(with: url)
+        
+        // category
+        categoryView.setCategory(category: currentPlace.category)
     }
 }
 
 #Preview {
-    HomeViewController()
+    HomeViewController(databaseService: DatabaseServices())
 }

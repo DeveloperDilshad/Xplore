@@ -1,0 +1,18 @@
+"/Users/dilshadp/Xplore/Pods/FirebaseFirestore/Firestore/Swift/Source/Codable/WriteBatch+WriteEncodable.swift":
+  object: "/Users/dilshadp/Xplore/build/Pods.build/Debug-iphonesimulator/FirebaseFirestore.build/Objects-normal/arm64/WriteBatch+WriteEncodable.o"
+  swift-dependencies: "/Users/dilshadp/Xplore/build/Pods.build/Debug-iphonesimulator/FirebaseFirestore.build/Objects-normal/arm64/WriteBatch+WriteEncodable.swiftdeps"
+  dependencies: "/Users/dilshadp/Xplore/build/Pods.build/Debug-iphonesimulator/FirebaseFirestore.build/Objects-normal/arm64/WriteBatch+WriteEncodable.d"
+  diagnostics: "/Users/dilshadp/Xplore/build/Pods.build/Debug-iphonesimulator/FirebaseFirestore.build/Objects-normal/arm64/WriteBatch+WriteEncodable.dia"
+  const-values: "/Users/dilshadp/Xplore/build/Pods.build/Debug-iphonesimulator/FirebaseFirestore.build/Objects-normal/arm64/WriteBatch+WriteEncodable.swiftconstvalues"
+"/Users/dilshadp/Xplore/Pods/FirebaseFirestore/Firestore/Swift/Source/Codable/VectorValue+Codable.swift":
+  diagnostics: "/Users/dilshadp/Xplore/build/Pods.build/Debug-iphonesimulator/FirebaseFirestore.build/Objects-normal/arm64/VectorValue+Codable.dia"
+  object: "/Users/dilshadp/Xplore/build/Pods.build/Debug-iphonesimulator/FirebaseFirestore.build/Objects-normal/arm64/VectorValue+Codable.o"
+  const-values: "/Users/dilshadp/Xplore/build/Pods.build/Debug-iphonesimulator/FirebaseFirestore.build/Objects-normal/arm64/VectorValue+Codable.swiftconstvalues"
+  dependencies: "/Users/dilshadp/Xplore/build/Pods.build/Debug-iphonesimulator/FirebaseFirestore.build/Objects-normal/arm64/VectorValue+Codable.d"
+  swift-dependencies: "/Users/dilshadp/Xplore/build/Pods.build/Debug-iphonesimulator/FirebaseFirestore.build/Objects-normal/arm64/VectorValue+Codable.swiftdeps"
+"/Users/dilshadp/Xplore/Pods/FirebaseFirestore/Firestore/Swift/Source/SwiftAPI/VectorValue+Swift.swift":
+  dependencies: "/Users/dilshadp/Xplore/build/Pods.build/Debug-iphonesimulator/FirebaseFirestore.build/Objects-normal/arm64/VectorValue+Swift.d"
+  diagnostics: "/Users/dilshadp/Xplore/build/Pods.build/Debug-iphonesimulator/FirebaseFirestore.build/Objects-normal/arm64/VectorValue+Swift.dia"
+  const-values: "/Users/dilshadp/Xplore/build/Pods.build/Debug-iphonesimulator/FirebaseFirestore.build/Objects-normal/arm64/VectorValue+Swift.swiftconstvalues"
+  swift-dependencies: "/Users/dilshadp/Xplore/build/Pods.build/Debug-iphonesimulator/FirebaseFirestore.build/Objects-normal/arm64/VectorValue+Swift.swiftdeps"
+  object: "/Users/dilshadp/Xplore/build/Pods.build/Debug-iphonesimulator/FirebaseFirestore.build/Objects-normal/arm64/VectorValue+Swift.o"

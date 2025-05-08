@@ -9,6 +9,8 @@ import UIKit
 
 class PrimaryTabBarViewController: UITabBarController {
 
+   let databaseService = DatabaseServices()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -18,7 +20,7 @@ class PrimaryTabBarViewController: UITabBarController {
     }
     
    private func configureTabBar() {
-        let vc1 = HomeViewController()
+       let vc1 = HomeViewController(databaseService: databaseService)
         let vc2 = FavouritesViewController()
         
         vc1.tabBarItem.image = UIImage(systemName: "shuffle")

@@ -57,4 +57,22 @@ class CategoryView: UIView {
             
         ])
     }
+    
+    func setCategory(category:String){
+        catogoryLabel.text = category
+        
+        if category == "Food"{
+            catogoryLabel.textColor = .systemOrange
+            circleImageView.tintColor = .systemOrange
+        }else if category == "city"{
+            catogoryLabel.textColor = .systemBlue
+            circleImageView.tintColor = .systemBlue
+        }else if category == "Nature"{
+            catogoryLabel.textColor = .systemGreen
+            circleImageView.tintColor = .systemGreen
+        }else if category == "Hotel"{
+            catogoryLabel.textColor = .systemPurple
+            circleImageView.tintColor = .systemPurple
+        }
+    }
 }

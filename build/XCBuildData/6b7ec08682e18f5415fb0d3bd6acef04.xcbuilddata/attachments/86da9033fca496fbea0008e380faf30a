@@ -1,0 +1,4 @@
+
+module Cloudinary.__Swift {
+  exclude header "Cloudinary-Swift.h"
+}
