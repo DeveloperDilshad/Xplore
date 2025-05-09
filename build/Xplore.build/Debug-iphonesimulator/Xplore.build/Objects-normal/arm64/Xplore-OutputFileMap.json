@@ -35,6 +35,16 @@
     "swift-dependencies" : "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/FetchDataError.swiftdeps",
     "swiftmodule" : "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/FetchDataError~partial.swiftmodule"
   },
+  "/Users/dilshadp/Xplore/Xplore/Favourites/FavouritesTableViewCell.swift" : {
+    "const-values" : "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/FavouritesTableViewCell.swiftconstvalues",
+    "dependencies" : "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/FavouritesTableViewCell.d",
+    "diagnostics" : "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/FavouritesTableViewCell.dia",
+    "index-unit-output-path" : "/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/FavouritesTableViewCell.o",
+    "llvm-bc" : "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/FavouritesTableViewCell.bc",
+    "object" : "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/FavouritesTableViewCell.o",
+    "swift-dependencies" : "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/FavouritesTableViewCell.swiftdeps",
+    "swiftmodule" : "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/FavouritesTableViewCell~partial.swiftmodule"
+  },
   "/Users/dilshadp/Xplore/Xplore/Favourites/FavouritesViewController.swift" : {
     "const-values" : "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/FavouritesViewController.swiftconstvalues",
     "dependencies" : "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/FavouritesViewController.d",
