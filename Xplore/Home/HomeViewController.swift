@@ -8,6 +8,7 @@
 import UIKit
 import SDWebImage
 import Combine
+import SafariServices
 
 
 class HomeViewController: UIViewController {
@@ -61,6 +62,7 @@ class HomeViewController: UIViewController {
     var databaseService: DatabaseServicesProtocol?
     var places: [Place] = []
     var currentPlace : Place?
+    var currentLocation:(Double, Double)?
     let locationService = LocationService()
     var toekns: Set<AnyCancellable> = []
     
@@ -137,7 +139,7 @@ class HomeViewController: UIViewController {
     }
     
     @objc func didTapDistanceLabel() {
-        print("image tapped")
+        openGoogleMaps()
     }
     
     private func fetchplaces() {
@@ -149,6 +151,7 @@ class HomeViewController: UIViewController {
             switch results {
             case .success(let places):
                 strongSelf.places = places
+                strongSelf.fetchDistance()
             case .failure(let failure):
                 print("Failed")
                 print(failure.localizedDescription)
@@ -167,15 +170,61 @@ class HomeViewController: UIViewController {
         
         // category
         categoryView.setCategory(category: currentPlace.category)
+        
+        //distance
+        if let distance = currentPlace.distance {
+            
+            distanceFromPlaceLabel.text = "\(distance) away"
+        }else {
+            distanceFromPlaceLabel.text = "Get Direction"
+        }
+            
     }
     
     private func getCurrentLocation() {
         locationService.requestLocationAccess()
         locationService.locationPublisher.receive(on: DispatchQueue.main).sink {  _ in
             
-        }receiveValue: { location in
-            print(location)
+        }receiveValue: {[weak self] location in
+            guard let strongSelf = self else { return }
+            strongSelf.currentLocation = (location.latitude, location.longitude)
         }.store(in: &toekns)
+    }
+    
+    private func fetchDistance() {
+        guard let currentLocation = currentLocation, places.count > 0 else { return }
+        
+       for i in 0..<places.count {
+           locationService.getDistance(longitude: "\(currentLocation.1)", lattitude: "\(currentLocation.0)", placeID: places[i].placeID, apiKey: "AlzaSyCCN12UJBsAXcsRXTzRJ6jniaE_LusKhoo") {[weak self] result in
+               guard let strongSelf = self else { return }
+               switch result {
+               case .success(let success):
+                   strongSelf.places[i].distance = success
+               case .failure(let failure):
+                   print(failure.localizedDescription)
+               }
+           }
+        }
+    }
+    
+    private func openGoogleMaps() {
+        guard let currentPlace = currentPlace, let googleMapURL = URL(string: "comgooglemaps://"),let placeURL = createURL(currentPlace: currentPlace) else {return}
+        
+        
+        if (UIApplication.shared.canOpenURL(googleMapURL)){
+            UIApplication.shared.open(placeURL)
+        }else{
+            let safariVC = SFSafariViewController(url: placeURL)
+            present(safariVC, animated: true)
+        }
+    }
+    
+    private func createURL(currentPlace:Place) ->URL? {
+        let baseURL = "https://www.google.com/maps/search/?api=1&query=''&query_place_id=\(currentPlace.placeID)"
+        
+        guard let url = URL(string:baseURL) else{ return nil}
+        
+        return url
     }
 }
 

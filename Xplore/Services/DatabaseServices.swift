@@ -39,8 +39,9 @@ class DatabaseServices : DatabaseServicesProtocol {
                 let category = data["category"] as? String ?? ""
                 let imageURL = data["imageURL"] as? String ?? ""
                 let docID = data["docID"] as? Int ?? 0
+                let placeID = data["placeID"] as? String ?? ""
                 
-                let place = Place(name: name , category: category , inageURL: imageURL , docID: docID )
+                let place = Place(name: name , category: category , inageURL: imageURL , docID: docID, placeID: placeID )
                 places.append(place)
                 
             }

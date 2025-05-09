@@ -13,4 +13,6 @@ struct Place: Codable{
     let category: String
     let inageURL: String
     let docID: Int
+    let placeID: String
+    var distance: String?
 }
