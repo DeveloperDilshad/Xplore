@@ -353,6 +353,7 @@ SWIFT_CLASS("_TtC6Xplore18HomeViewController")
 @interface HomeViewController : UIViewController
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 - (void)viewDidLoad;
+- (void)didTapProfile;
 - (void)didTapShuffle;
 - (void)didTapImage;
 - (void)didTapDistanceLabel;
@@ -372,11 +373,28 @@ SWIFT_CLASS("_TtC6Xplore15LocationService")
 - (void)locationManager:(CLLocationManager * _Nonnull)manager didFailWithError:(NSError * _Nonnull)error;
 @end
 
+SWIFT_CLASS("_TtC6Xplore19LoginViewController")
+@interface LoginViewController : UIViewController
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 @class UITab;
 SWIFT_CLASS("_TtC6Xplore27PrimaryTabBarViewController")
 @interface PrimaryTabBarViewController : UITabBarController
 - (void)viewDidLoad;
 - (nonnull instancetype)initWithTabs:(NSArray<UITab *> * _Nonnull)tabs OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=18.0);
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+SWIFT_CLASS("_TtC6Xplore21ProfileViewController")
+@interface ProfileViewController : UIViewController
+- (void)viewDidLoad;
+- (void)didTapSignOut;
+- (void)didTapSReportIssue;
+- (void)didTapSuggestion;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
@@ -393,6 +411,39 @@ SWIFT_CLASS("_TtC6Xplore13SceneDelegate")
 - (void)sceneWillEnterForeground:(UIScene * _Nonnull)scene;
 - (void)sceneDidEnterBackground:(UIScene * _Nonnull)scene;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+SWIFT_CLASS("_TtC6Xplore20SignInViewController")
+@interface SignInViewController : UIViewController
+- (void)viewDidLoad;
+- (void)didTapRegisterText;
+- (void)didTapSignIn;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UITextField;
+@interface SignInViewController (SWIFT_EXTENSION(Xplore)) <UITextFieldDelegate>
+- (BOOL)textFieldShouldReturn:(UITextField * _Nonnull)textField SWIFT_WARN_UNUSED_RESULT;
+@end
+
+SWIFT_CLASS("_TtC6Xplore20SignUpViewController")
+@interface SignUpViewController : UIViewController
+- (void)viewDidLoad;
+- (void)didTapLoginText;
+- (void)didTapSignUp;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@interface SignUpViewController (SWIFT_EXTENSION(Xplore)) <UITextFieldDelegate>
+- (BOOL)textFieldShouldReturn:(UITextField * _Nonnull)textField SWIFT_WARN_UNUSED_RESULT;
+@end
+
+SWIFT_CLASS("_TtC6Xplore27xplorOnboardCustomTextfield")
+@interface xplorOnboardCustomTextfield : UITextField
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithFrame:(CGRect)frame SWIFT_UNAVAILABLE;
 @end
 
 #endif

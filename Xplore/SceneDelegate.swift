@@ -19,10 +19,16 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         guard let windowScene = (scene as? UIWindowScene) else { return }
         
         let window = UIWindow(windowScene: windowScene)
-        window.rootViewController = PrimaryTabBarViewController()
+        window.rootViewController = SignInViewController()
         window.makeKeyAndVisible()
         self.window = window
         
+    }
+    
+    func changeViewcontroller(_ vc: UIViewController){
+        guard let window = window.self else { return }
+        window.rootViewController = vc
+        UIView.transition(with:window, duration: 0.5,options: .transitionFlipFromLeft, animations: nil)
     }
 
     func sceneDidDisconnect(_ scene: UIScene) {

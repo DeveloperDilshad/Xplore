@@ -19,6 +19,11 @@ class FavouritesViewController: UIViewController {
         return tableView
     }()
     
+    let mock:[Place] = [
+        Place(name: "abs", category: "123", inageURL: "", docID: 0, placeID: "1"),
+        Place(name: "abs", category: "123", inageURL: "", docID: 0, placeID: "1"),
+        Place(name: "abs", category: "123", inageURL: "", docID: 0, placeID: "1"),
+    ]
     
     let favouritePlaces = [Place]()
 
@@ -38,12 +43,12 @@ class FavouritesViewController: UIViewController {
 
 extension FavouritesViewController:UITableViewDelegate,UITableViewDataSource{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 5
+        return mock.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: FavouritesTableViewCell.identifier, for: indexPath) as? FavouritesTableViewCell else {return UITableViewCell()}
-        cell.configure(with: favouritePlaces[indexPath.row])
+        cell.configure(with: mock[indexPath.row])
         return cell
     }
     

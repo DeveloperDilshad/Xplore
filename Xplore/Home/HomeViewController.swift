@@ -81,8 +81,13 @@ class HomeViewController: UIViewController {
         configureUI()
         fetchplaces()
         getCurrentLocation()
+        setUpNavbar()
     }
 
+    private func setUpNavbar() {
+        navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(systemName: "person"), style: .plain, target: self, action: #selector(didTapProfile))
+        navigationController?.navigationBar.tintColor = .label
+    }
 
     private func configureUI() {
         
@@ -124,6 +129,10 @@ class HomeViewController: UIViewController {
             
     }
     
+    @objc func didTapProfile() {
+        let profileVC = ProfileViewController()
+        navigationController?.pushViewController(profileVC, animated: true)
+    }
     
     @objc func didTapShuffle() {
         

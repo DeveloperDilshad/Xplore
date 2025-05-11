@@ -49,4 +49,25 @@ class DatabaseServices : DatabaseServicesProtocol {
         }
         
     }
+    
+    // MARK: - Store userdata while register
+    
+     func storeFirstTimeUserIntoDatabase(email:String, uid:String, username:String, fullname:String, completion:@escaping(Result<Void,FirestoreError>) -> Void){
+        
+        let data = [
+            "email": email,
+            "username": username,
+            "fullname": fullname,
+            "uid": uid,
+            
+        ]
+        
+        database.collection("users").document(uid).setData(data) { error in
+            if let error = error {
+                print("Error writing document: \(error)")
+                completion(.failure(.errorInStoringUserData))
+            }
+            completion(.success(()))
+        }
+    }
 }

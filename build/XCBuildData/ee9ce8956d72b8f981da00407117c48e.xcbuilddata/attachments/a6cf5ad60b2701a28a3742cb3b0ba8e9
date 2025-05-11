@@ -1,0 +1,5 @@
+
+module Cloudinary.Swift {
+  header "Cloudinary-Swift.h"
+  requires objc
+}
