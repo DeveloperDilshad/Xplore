@@ -9,6 +9,18 @@ import UIKit
 
 class ProfileViewController: UIViewController {
     
+    var user: User?
+    var databaseService: DatabaseServicesProtocol?
+    
+    init(databaseService: DatabaseServicesProtocol) {
+        self.databaseService = databaseService
+        super.init(nibName: nil, bundle: nil)
+    }
+    
+    required init?(coder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
+    }
+    
     let imagewidth: CGFloat = 100
     
     lazy var profileImageView: UIImageView = {
@@ -81,10 +93,23 @@ class ProfileViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-
         configureUI()
-       
+
+        databaseService?.fetchUserData { [weak self] result in
+            guard let self = self else { return }
+
+            switch result {
+            case .success(let user):
+                DispatchQueue.main.async {
+                    self.user = user
+                    self.setValue()
+                }
+            case .failure(let error):
+                print("Failed to fetch user: \(error.localizedDescription)")
+            }
+        }
     }
+
     
     private func configureUI() {
         view.addSubview(profileImageView)
@@ -139,8 +164,12 @@ class ProfileViewController: UIViewController {
         print("SignOut Tapped")
     }
     
+    private func setValue(){
+        usernameLabel.text = user?.username ?? ""
+    }
+    
 }
 
 #Preview {
-    ProfileViewController()
+    ProfileViewController(databaseService: DatabaseServices())
 }

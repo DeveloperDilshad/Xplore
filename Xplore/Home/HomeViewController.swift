@@ -13,6 +13,7 @@ import SafariServices
 
 class HomeViewController: UIViewController {
     
+    
     lazy var placeImageView: UIImageView = {
         let image = UIImageView()
         image.translatesAutoresizingMaskIntoConstraints = false
@@ -66,7 +67,7 @@ class HomeViewController: UIViewController {
     let locationService = LocationService()
     var toekns: Set<AnyCancellable> = []
     
-    init(databaseService: DatabaseServicesProtocol) {
+    init(databaseService: DatabaseServicesProtocol!) {
         self.databaseService = databaseService
         super.init(nibName: nil, bundle: nil)
     }
@@ -130,7 +131,7 @@ class HomeViewController: UIViewController {
     }
     
     @objc func didTapProfile() {
-        let profileVC = ProfileViewController()
+        let profileVC = ProfileViewController(databaseService: databaseService!)
         navigationController?.pushViewController(profileVC, animated: true)
     }
     
@@ -235,6 +236,8 @@ class HomeViewController: UIViewController {
         
         return url
     }
+    
+
 }
 
 #Preview {

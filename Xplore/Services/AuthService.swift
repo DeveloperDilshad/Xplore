@@ -17,6 +17,7 @@ enum AuthError: Error {
 
 enum FirestoreError: Error {
     case errorInStoringUserData
+    case errorInFetchingUserData
 }
 
 class AuthService {
@@ -52,6 +53,7 @@ class AuthService {
             
             
         }
+        
     }
     
 

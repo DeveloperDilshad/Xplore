@@ -1,0 +1,18 @@
+"/Users/dilshadp/Xplore/Xplore/SceneDelegate.swift":
+  const-values: "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/SceneDelegate.swiftconstvalues"
+  swift-dependencies: "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/SceneDelegate.swiftdeps"
+  diagnostics: "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/SceneDelegate.dia"
+  dependencies: "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/SceneDelegate.d"
+  object: "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/SceneDelegate.o"
+"/Users/dilshadp/Xplore/Xplore/Services/AuthService.swift":
+  diagnostics: "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/AuthService.dia"
+  dependencies: "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/AuthService.d"
+  swift-dependencies: "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/AuthService.swiftdeps"
+  object: "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/AuthService.o"
+  const-values: "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/AuthService.swiftconstvalues"
+"/Users/dilshadp/Xplore/Xplore/Services/DatabaseServices.swift":
+  object: "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/DatabaseServices.o"
+  swift-dependencies: "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/DatabaseServices.swiftdeps"
+  const-values: "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/DatabaseServices.swiftconstvalues"
+  diagnostics: "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/DatabaseServices.dia"
+  dependencies: "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/DatabaseServices.d"

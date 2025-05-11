@@ -1,0 +1,18 @@
+"/Users/dilshadp/Xplore/Xplore/Favourites/FavouritesViewController.swift":
+  swift-dependencies: "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/FavouritesViewController.swiftdeps"
+  diagnostics: "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/FavouritesViewController.dia"
+  dependencies: "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/FavouritesViewController.d"
+  object: "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/FavouritesViewController.o"
+  const-values: "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/FavouritesViewController.swiftconstvalues"
+"/Users/dilshadp/Xplore/Xplore/CategoryView.swift":
+  const-values: "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/CategoryView.swiftconstvalues"
+  dependencies: "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/CategoryView.d"
+  diagnostics: "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/CategoryView.dia"
+  object: "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/CategoryView.o"
+  swift-dependencies: "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/CategoryView.swiftdeps"
+"/Users/dilshadp/Xplore/Xplore/Favourites/FavouritesTableViewCell.swift":
+  dependencies: "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/FavouritesTableViewCell.d"
+  swift-dependencies: "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/FavouritesTableViewCell.swiftdeps"
+  const-values: "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/FavouritesTableViewCell.swiftconstvalues"
+  object: "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/FavouritesTableViewCell.o"
+  diagnostics: "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/FavouritesTableViewCell.dia"

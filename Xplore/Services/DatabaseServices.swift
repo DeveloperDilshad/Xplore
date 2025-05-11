@@ -6,15 +6,18 @@
 //
 
 import Foundation
+import FirebaseAuth
 import FirebaseFirestore
 
 protocol DatabaseServicesProtocol {
     func fetchPlaces(completion: @escaping (Result<[Place], FetchDataError>) -> Void )
+    func fetchUserData(completion:@escaping(Result<User,FirestoreError>) -> Void)
 }
 
 class DatabaseServices : DatabaseServicesProtocol {
     
     let database = Firestore.firestore()
+    let user = Auth.auth().currentUser
     
     func fetchPlaces(completion: @escaping (Result<[Place], FetchDataError>) -> Void ){
         database.collection("places").order(by: "docID", descending: false).getDocuments { snapshot, error in
@@ -68,6 +71,33 @@ class DatabaseServices : DatabaseServicesProtocol {
                 completion(.failure(.errorInStoringUserData))
             }
             completion(.success(()))
+        }
+    }
+    
+    func fetchUserData(completion:@escaping(Result<User,FirestoreError>) -> Void){
+        database.collection("users").document(user?.uid ?? "").getDocument { snapshot, error in
+            guard let document = snapshot, error == nil else {
+                print("Document does not exist")
+                completion(.failure(.errorInFetchingUserData))
+                return
+            }
+            guard let data = document.data() else {
+                print("Document data is nil")
+                completion(.failure(.errorInFetchingUserData))
+                return
+            }
+        
+            
+            do{
+                let jsonData = try JSONSerialization.data(withJSONObject: data, options: [])
+                let decodedUser = try JSONDecoder().decode(User.self, from: jsonData)
+                completion(.success(decodedUser))
+            }catch{
+                print("Failed to decode")
+                completion(.failure(.errorInFetchingUserData))
+                
+            }
+            
         }
     }
 }

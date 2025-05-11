@@ -1,0 +1,18 @@
+"/Users/dilshadp/Xplore/Xplore/SceneDelegate.swift":
+  const-values: "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/SceneDelegate.swiftconstvalues"
+  swift-dependencies: "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/SceneDelegate.swiftdeps"
+  diagnostics: "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/SceneDelegate.dia"
+  object: "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/SceneDelegate.o"
+  dependencies: "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/SceneDelegate.d"
+"/Users/dilshadp/Xplore/Xplore/Services/AuthService.swift":
+  const-values: "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/AuthService.swiftconstvalues"
+  object: "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/AuthService.o"
+  dependencies: "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/AuthService.d"
+  swift-dependencies: "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/AuthService.swiftdeps"
+  diagnostics: "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/AuthService.dia"
+"/Users/dilshadp/Xplore/Xplore/Services/DatabaseServices.swift":
+  dependencies: "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/DatabaseServices.d"
+  object: "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/DatabaseServices.o"
+  diagnostics: "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/DatabaseServices.dia"
+  const-values: "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/DatabaseServices.swiftconstvalues"
+  swift-dependencies: "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/DatabaseServices.swiftdeps"

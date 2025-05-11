@@ -1,0 +1,18 @@
+"/Users/dilshadp/Xplore/Xplore/Services/LoginViewController.swift":
+  object: "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/LoginViewController.o"
+  swift-dependencies: "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/LoginViewController.swiftdeps"
+  diagnostics: "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/LoginViewController.dia"
+  const-values: "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/LoginViewController.swiftconstvalues"
+  dependencies: "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/LoginViewController.d"
+"/Users/dilshadp/Xplore/Xplore/AppDelegate.swift":
+  dependencies: "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/AppDelegate.d"
+  diagnostics: "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/AppDelegate.dia"
+  const-values: "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/AppDelegate.swiftconstvalues"
+  swift-dependencies: "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/AppDelegate.swiftdeps"
+  object: "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/AppDelegate.o"
+"/Users/dilshadp/Xplore/Xplore/Services/LocationService.swift":
+  object: "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/LocationService.o"
+  swift-dependencies: "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/LocationService.swiftdeps"
+  dependencies: "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/LocationService.d"
+  const-values: "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/LocationService.swiftconstvalues"
+  diagnostics: "/Users/dilshadp/Xplore/build/Xplore.build/Debug-iphonesimulator/Xplore.build/Objects-normal/arm64/LocationService.dia"
